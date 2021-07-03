@@ -232,30 +232,39 @@ body{
 
 
 @media (max-width:545.99px){
-    .container-custom{
-        margin: 0;
-        width: fit-content;
-        overflow: hidden;
+    h3{
+        font-size: 2.6rem;
     }
-
+    p{
+        font-size: 16px;
+    }
     .image::before{
-        bottom: 25%;
+        bottom: 19%;
     }
     .image::after {
-        width: 490px;
-        height: 490px;
+        width: 320px;
+        height: 320px;
     }
-
+    .left-side {
+        padding: 30px;
+    }
+    .right-side{
+        padding: 30px;
+    }
     .left-side .profile-text h2 {
-        font-size: 3.5rem;
+        font-size: 2.3rem;
     }
     .left-side .profile-text p{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .contact-icon{
         font-size: 25px;
-        width: 10%;
+        width: 16%;
+    }
+    .contact-list li{
+        font-size: 16px;
+        line-height: 1.5rem;
     }
 
     .title ul li i{
