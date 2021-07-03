@@ -173,6 +173,7 @@ body{
 @media (max-width:991.99px){
     .container-custom{
         margin: 0;
+        border-radius: 0;
         width: fit-content;
         overflow: hidden;
     }
@@ -188,7 +189,12 @@ body{
         width: 550px;
         height: 550px;
     }
-
+    .left-side{
+        border-radius: 0;
+    }
+    .right-side{
+        border-radius: 0;
+    }
     .left-side .profile-text h2 {
     font-size: 5rem;
     }
