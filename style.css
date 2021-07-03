@@ -106,16 +106,16 @@ body{
     padding: 40px;
     border-radius: 20px;
 }
-.right-side .image{
+.image{
     position: relative;
 }
-.right-side .image img{
+.image img{
     border: 3px solid #eff1ff;
     border-radius: 50%;
 }
 
 
-.right-side .image::before{
+.image::before{
     content: '';
     display: inline-block;
     width: 24px;
@@ -129,7 +129,7 @@ body{
     left: 16px;
 }
 
-.right-side .image::after {
+.image::after {
     content: "";
     width: 250px;
     height: 250px;
@@ -168,4 +168,97 @@ body{
     color: var(--second-color);
     margin-right: 7px;
     font-size: 10px;
+}
+
+@media (max-width:991.99px){
+    .container-custom{
+        margin: 0;
+        width: fit-content;
+        overflow: hidden;
+    }
+    .image-md{
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .image::before{
+        bottom: 26%;
+    }
+    .image::after {
+        width: 550px;
+        height: 550px;
+    }
+
+    .left-side .profile-text h2 {
+    font-size: 5rem;
+    }
+    .left-side .profile-text p{
+        font-size: 3rem;
+    }
+    .contact-list{
+        font-size: 1.4rem;
+    }
+
+    .contact-icon{
+        font-size: 25px;
+        width: 7%;
+    }
+
+    h3{
+        font-size: 3rem;
+        letter-spacing: 1px;
+    }
+    p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    li{
+        font-size: 19px;
+        line-height: 2.5rem;
+    }
+    .education{
+        padding-top: 0;
+    }
+
+    .title ul li{
+        font-size: 22px;
+    }
+
+    .title ul li i{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:545.99px){
+    .container-custom{
+        margin: 0;
+        width: fit-content;
+        overflow: hidden;
+    }
+
+    .image::before{
+        bottom: 25%;
+    }
+    .image::after {
+        width: 490px;
+        height: 490px;
+    }
+
+    .left-side .profile-text h2 {
+        font-size: 3.5rem;
+    }
+    .left-side .profile-text p{
+        font-size: 2rem;
+    }
+
+    .contact-icon{
+        font-size: 25px;
+        width: 10%;
+    }
+
+    .title ul li i{
+        font-size: 17px;
+    }
 }
