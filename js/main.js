@@ -32,7 +32,7 @@ sr.reveal(`.reference`, {
   interval: 300,
 //   delay: 1000,
 });
-sr.reveal(`.education,.title`, {
+sr.reveal(`.education,.title, .copy-right`, {
   origin: "buttom",
   interval: 300,
   //   delay: 1000,
